@@ -1,0 +1,7 @@
+/* 100-loop_header.scss - write loop headers */
+
+@for $fontsize from 1 through 5 {
+     h#{$fontsize} {
+     		   font-size: #{$fontsize}px;
+     }
+}
