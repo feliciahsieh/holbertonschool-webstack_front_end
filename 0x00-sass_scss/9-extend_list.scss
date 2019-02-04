@@ -1,0 +1,18 @@
+/* 9-extend_list.scss - write extends */
+%myfontsize {
+      font-size: 12px;
+}
+
+.success {
+	 @extend %myfontsize;
+	 color: #00FF00;
+}
+
+.warning {
+	 @extend %myfontsize;
+	 color: #FF0000;
+}
+
+.info {
+      @extend %myfontsize;
+}
