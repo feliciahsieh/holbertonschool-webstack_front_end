@@ -2,6 +2,8 @@
 
 @import '104-sort_list.scss';
 
+$temp : "";
 @each $name in $list_to_sort {
-      @debug $name;
+      $temp : $temp + " " + $name;
 }
+@debug $temp;
