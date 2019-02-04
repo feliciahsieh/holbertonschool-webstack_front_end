@@ -1,0 +1,8 @@
+/* 11-loop_photos.scss - add right background image using @each */
+@import '11-photos';
+
+@each $name in $list-names {
+      .photo-#{$name} {
+      		      background: image-url("photos/#{$name}.jpg") no-repeat;
+		      }
+}
