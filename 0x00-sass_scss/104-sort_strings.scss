@@ -1,0 +1,7 @@
+/* 104-sort_strings.scss - sort a list and print to debug */
+
+@import '104-sort_list.scss';
+
+@each $name in $list_to_sort {
+      @debug $name;
+}
