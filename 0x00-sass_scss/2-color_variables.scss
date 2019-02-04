@@ -1,0 +1,11 @@
+/* 2-color_variables.scss - use 2 scss vars to assign colors to tags */
+$mycolor: #3D3D3D;
+$mybcolor: #6D6D6D;
+
+body {
+     color: $mycolor;
+     background-color: $mybcolor; }
+
+p { color: $mycolor; }
+
+h2 { background-color: $mybcolor; }
