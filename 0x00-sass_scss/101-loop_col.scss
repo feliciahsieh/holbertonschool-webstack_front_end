@@ -1,7 +1,7 @@
 /* 101-loop_col.scss - test columns and operators */
 $mylist: 1 2 3 4;
 
-@each $cols in $mylist {
+@for $cols from 1 through 4 {
      .col-#{$cols} {
      	width: percentage(1/$cols);
      }
