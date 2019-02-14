@@ -1,3 +1,4 @@
+/* styles.css - used http://colorsafe.co/ color picker */
 * {
     margin: 0px;
     padding: 0px;
@@ -5,8 +6,8 @@
 
 body {
     margin: 40px;
-    background: #FF00FF;
+    background: #eef4fe;
     font-family: 'Helvetica', 'Arial', sans-serif;
-    color: #1C2A43;
+    color: #34495e;
     font-size: 1.5em;
 }
