@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>4-accessibility</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h2>Holberton School</h2>
+        </header>
+        <main>
+            <article id="articleHolberton">
+                <div class="logged_out_form">
+                    <img src="images/logo.png" alt="Holberton logo">
+                    
+                    <form class="sm-gap" id="new_user" action="/auth/sign_in" accept-charset="UTF-8" method="post">
+                        <div class="field">
+                            <label for="email">Enter Email</label>
+                            <input autofocus class="form-control" id="email" type="text" name="user_login" id="user_login">
+                        </div>
+                        <div class="field">
+                            <label for="pwd">Enter Password</label>
+                            <input autocomplete="off" class="form-control" type="password" id="pwd" name="user_password" id="user_password">
+                        </div>
+
+                        <div class="field">
+                            <input name="user[remember_me]" type="hidden" value="0">
+                            <input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me">
+                            <div class="remember">Remember me</div>
+                        </div>
+
+                        <button class="actions" id="buttonlogin">
+                            <input type="submit" name="commit" value="Log in" class="btn btn-primary">
+                        </button>
+                    </form>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>
