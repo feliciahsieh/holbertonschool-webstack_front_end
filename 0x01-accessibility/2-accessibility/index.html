@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>2-accessibility</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h3>All my favorite Disney movies</h3>
+        </header>
+        
+        <table id="FavoriteDisneyMovies" summary="My Favorite 4 Disney Movies">
+        <caption>Top 4 Disney Movies</caption>
+            <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Poster</th>
+                <th scope="col">Release year</th>
+                <th scope="col" colspan="1"></th>
+            </tr>
+            <tr id="MovieMoana">
+                <td>Moana</td>
+                <td><img src="images/moana.jpg" alt="Moana"/></td>
+                <td>2016</td>
+                <td><button id="watchMoana">WATCH MOANA</button></td>
+            </tr>
+            <tr id="MovieLionKing">
+                <td>The Lion king</td>
+                <td><img src="images/the_lion_king.jpg" alt="The Lion King"/></td>
+                <td>1994</td>
+                <td><button id="watchLionKing">WATCH LION KING</button></td>
+            </tr>
+            <tr id="MovieAladdin">
+                <td>Aladdin</td>
+                <td><img src="images/aladdin.jpg" alt="Aladdin"/></td>
+                <td>1992</td>
+                <td><button id="watchAladdin">WATCH ALADDIN</button></td>
+            </tr>
+            <tr id="MovieLittleMermaid">
+                <td>The Little Mermaid</td>
+                <td><img src="images/the_little_mermaid.jpg" alt="The Little Mermaid"/></td>
+                <td>1989</td>
+                <td><button id="watchLittleMermaid">WATCH LITTLE MERMAID</button></td>
+            </tr>
+        </table>
+    </body>
+</html>
