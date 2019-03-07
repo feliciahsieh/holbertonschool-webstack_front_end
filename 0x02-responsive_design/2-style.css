@@ -1,19 +1,15 @@
 /* 2-style.scss - changes background color dep on 3 screen sizes */
-
 @media screen and (max-device-width: 499px) {
   body {
-    background-color: #0000FF; /* purple */
-  }
-}
-
+    background-color: #0000FF;
+    /* purple */ } }
 @media screen and (min-device-width: 500px) and (max-device-width: 899px) {
   body {
-    background-color: #00FF00; /* green */
-  }
-}
-
+    background-color: #00FF00;
+    /* green */ } }
 @media screen and (min-device-width: 900px) {
   body {
-    background-color: #FF0000; /* red */
-  }
-}
+    background-color: #FF0000;
+    /* red */ } }
+
+/*# sourceMappingURL=2-style.css.map */
