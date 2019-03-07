@@ -1,0 +1,25 @@
+/* 9-style.scss - display each "Item x" in a corner */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+ul li:nth-child(1) {
+   flex: 50%;
+}
+
+ul li:nth-child(2) {
+   margin-left: auto;
+}
+
+ul li:nth-child(3) {
+   width: 50%;
+   margin-top: auto;}
+
+ul li:nth-child(4) {
+   margin-left: auto;
+   margin-top: auto;
+}
