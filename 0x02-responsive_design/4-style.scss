@@ -1,0 +1,20 @@
+/* 4-style.scss - display only 1 <h1> depending on screen size */
+
+h1 {
+   visibility: visible;
+}
+
+h1.mobile {
+   visibility: hidden;
+}
+
+@media screen and (max-device-width: 599px)
+{
+       h1 {
+       	   visibility: hidden;
+       }
+
+       h1.mobile {
+       	  visibility: visible;
+       }
+}
