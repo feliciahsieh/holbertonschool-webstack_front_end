@@ -1,0 +1,12 @@
+/* 1-style.scss */
+@media screen and (max-device-width: 899px) {
+  body {
+    background-color: #00FF00;
+    /* green */ } }
+/* Desktop Styles */
+@media screen and (min-device-width: 900px) {
+  body {
+    background-color: #FF0000;
+    /* red */ } }
+
+/*# sourceMappingURL=1-style.css.map */
