@@ -1,13 +1,13 @@
 /* 1-style.scss */
 
-@media only screen and (max-width: 899px) {
+@media screen and (max-device-width: 899px) {
   body {
     background-color: #00FF00; /* green */
   }
 }
 
 /* Desktop Styles */
-@media only screen and (min-width: 900px) {
+@media screen and (min-device-width: 900px) {
   body {
     background-color: #FF0000; /* red */
   }
