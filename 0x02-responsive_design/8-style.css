@@ -1,10 +1,10 @@
 /* 8-style.scss - Use Flex to display all images in same line and centered
 horizontally and vertically */
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: auto;
-  min-height: 100vh;
-}
+  min-height: 100vh; }
+
+/*# sourceMappingURL=8-style.css.map */
