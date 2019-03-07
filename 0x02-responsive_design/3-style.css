@@ -1,28 +1,20 @@
 /* 3-style.scss - change image size depending on window size */
-
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 img {
-  width: 24%; /* default */
-}
+  width: 24%;
+  /* default */ }
 
 @media screen and (max-device-width: 299px) {
   img {
-    width: 100%;
-  }
-}
-
+    width: 100%; } }
 @media screen and (min-device-width: 300px) and (max-device-width: 599px) {
   img {
-    width: 49%;
-  }
-}
-
+    width: 49%; } }
 @media screen and (min-device-width: 600px) and (max-device-width: 899px) {
   img {
-    width: 32%;
-  }
-}
+    width: 32%; } }
+
+/*# sourceMappingURL=3-style.css.map */
