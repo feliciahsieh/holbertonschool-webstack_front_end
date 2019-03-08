@@ -1,25 +1,30 @@
 /* 9-style.scss - display each "Item x" in a corner */
 
-body {
+ul {
   display: flex;
-  flex-direction: column;
-  align-content: space-between;
+  padding: 0;
+  justify-content: flex-end;
   flex-wrap: wrap;
 }
 
+li {
+  list-style-type: none;
+}
+
 ul li:nth-child(1) {
-   flex: 50%;
+  margin-right: auto;
+  flex: 50%;
 }
 
 ul li:nth-child(2) {
-   margin-left: auto;
+ background-color: red;
 }
 
 ul li:nth-child(3) {
-   width: 50%;
-   margin-top: auto;}
+  flex: 50%;
+  margin-top: auto;
+}
 
 ul li:nth-child(4) {
-   margin-left: auto;
-   margin-top: auto;
+ background-color: blue;
 }
