@@ -5,21 +5,19 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-content: space-around;
-  color: white;
-}
+  color: white; }
 
 .box1 {
   background-color: #FF0000;
   justify-content: stretch;
-  width: 100%;
-}
+  width: 100%; }
 
 .box2 {
   background-color: #00FF00;
-  width: 33%;
-}
+  width: 33%; }
 
 .box3 {
   background-color: #0000FF;
-  flex: 1;
-}
+  flex: 1; }
+
+/*# sourceMappingURL=10-style.css.map */
