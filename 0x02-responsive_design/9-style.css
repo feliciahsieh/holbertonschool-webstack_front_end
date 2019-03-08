@@ -1,0 +1,25 @@
+/* 9-style.scss - display each "Item x" in a corner */
+ul {
+  display: flex;
+  padding: 0;
+  justify-content: flex-end;
+  flex-wrap: wrap; }
+
+li {
+  list-style-type: none; }
+
+ul li:nth-child(1) {
+  margin-right: auto;
+  flex: 50%; }
+
+ul li:nth-child(2) {
+  background-color: red; }
+
+ul li:nth-child(3) {
+  flex: 50%;
+  margin-top: auto; }
+
+ul li:nth-child(4) {
+  background-color: blue; }
+
+/*# sourceMappingURL=9-style.css.map */
