@@ -1,24 +1,28 @@
 /* 9-style.scss - display each "Item x" in a corner */
 ul {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap; }
+  display: flex; }
 
 li {
   list-style-type: none; }
 
 ul .item:nth-child(1) {
-  flex: 50%;
-  height: 50vh; }
+  position: absolute;
+  top: 0;
+  left: 0; }
 
 ul .item:nth-child(2) {
-  margin-bottom: auto; }
+  position: absolute;
+  top: 0;
+  right: 0; }
 
 ul .item:nth-child(3) {
-  flex: 50%;
-  height: 50vh; }
+  position: absolute;
+  bottom: 0;
+  left: 0; }
 
 ul .item:nth-child(4) {
-  margin-top: auto; }
+  position: absolute;
+  bottom: 0;
+  right: 0; }
 
 /*# sourceMappingURL=9-style.css.map */
